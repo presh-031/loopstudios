@@ -1,11 +1,11 @@
-import Head from "next/head";
-import Image from "next/image";
 import HeadComponent from "../components/HeadComponent";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-gray-900">
       <HeadComponent page="HomePage" />
+      <Hero />
     </div>
   );
 }
