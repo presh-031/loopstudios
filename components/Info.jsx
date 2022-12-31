@@ -2,7 +2,7 @@ import React from "react";
 
 const Info = () => {
   return (
-    <div>
+    <div className="text-center">
       <div>{/* The image will be a bg-img */}</div>
       <div>
         <p>THE LEADER IN INTERACTIVE VR</p>
