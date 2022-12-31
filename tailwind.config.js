@@ -9,6 +9,10 @@ module.exports = {
         "info-img-mobile": "url('../assets/images/mobile/image-interactive.jpg')",
       },
     },
+    fontFamily: {
+      alata: ["Alata", "sans-serif"],
+      "josefin-sans": ["Josefin Sans", "sans-serif"],
+    },
   },
   plugins: [],
 };

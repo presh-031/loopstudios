@@ -7,7 +7,7 @@ import heroImg from "../assets/images/mobile/image-hero.jpg";
 
 const Hero = () => {
   return (
-    <div className="px-6 bg-hero-img-mobile bg-cover bg-no-repeat h-[100vh]">
+    <div className="h-[100vh] bg-hero-img-mobile bg-cover bg-no-repeat px-6">
       <header className=" flex items-center justify-between  py-6">
         <div className="">
           <Image src={logo} alt="loopstudios" width={120} height={20} />
@@ -25,7 +25,7 @@ const Hero = () => {
           <Image src={hamburger} alt="menu-icon" />
         </div>
       </header>
-      <div className="outline text-4xl font-light  text-gray-200 mt-[20vh] p-4 outline-2 outline-gray-200 ">
+      <div className="mt-[20vh] p-4 font-josefin-sans  text-4xl  font-light text-gray-200 outline outline-2 outline-gray-200 ">
         <p>IMMERSIVE </p>
         <p> EXPERIENCES </p>
         <p> THAT </p>
