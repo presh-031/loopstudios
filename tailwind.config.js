@@ -6,6 +6,7 @@ module.exports = {
       backgroundImage: {
         // mobile images
         "hero-img-mobile": "url('../assets/images/mobile/image-hero.jpg')",
+        "info-img-mobile": "url('../assets/images/mobile/image-interactive.jpg')",
       },
     },
   },
