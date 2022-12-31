@@ -9,7 +9,7 @@ const Hero = () => {
           <Image src={logo} alt="loopstudios" />
         </div>
         <nav>
-          <ul>
+          <ul className="hidden">
             <li>About</li>
             <li>Careers</li>
             <li>Events</li>
@@ -17,6 +17,9 @@ const Hero = () => {
             <li>Support</li>
           </ul>
         </nav>
+        <div>
+          <Image />
+        </div>
       </header>
       <div>
         <p>IMMERSIVE EXPERIENCES THAT DELIVER</p>
