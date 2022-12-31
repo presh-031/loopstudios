@@ -1,3 +1,4 @@
+import Creations from "../components/Creations/Creations";
 import Footer from "../components/Footer";
 import HeadComponent from "../components/HeadComponent";
 import Hero from "../components/Hero";
@@ -9,6 +10,7 @@ export default function Home() {
       <HeadComponent page="HomePage" />
       <Hero />
       <Info />
+      <Creations />
       <Footer />
     </div>
   );
