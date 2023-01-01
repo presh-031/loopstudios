@@ -1,6 +1,14 @@
 import React from "react";
 import Creation from "./Creation.jsx/Creation";
 
+import deepEarth from "../../assets/images/mobile/image-deep-earth.jpg";
+import nightArcade from "../../assets/images/mobile/image-night-arcade.jpg";
+import soccerTeam from "../../assets/images/mobile/image-soccer-team.jpg";
+import grid from "../../assets/images/mobile/image-grid.jpg";
+import fromAbove from "../../assets/images/mobile/image-from-above.jpg";
+import pocketBorealis from "../../assets/images/mobile/image-pocket-borealis.jpg";
+import curiosity from "../../assets/images/mobile/image-curiosity.jpg";
+import fisheye from "../../assets/images/mobile/image-fisheye.jpg";
 const Creations = () => (
   <div className="px-6">
     <div>
@@ -11,16 +19,9 @@ const Creations = () => (
 
       {/* The grid container is below */}
       <div className="grid grid-cols-1 gap-6">
-        <Creation title="deep earth" creationImg="deep-earth" />
-        <Creation title="deep earth" creationImg="night-arcade" />
-        <Creation title="deep earth" creationImg="soccer-team" />
-        <Creation title="deep earth" creationImg="grid" />
-        <Creation title="deep earth" creationImg="from-above" />
-        <Creation title="deep earth" creationImg="pocket-borealis" />
-        <Creation title="deep earth" creationImg="curiosity" />
-        <Creation title="deep earth" creationImg="fisheye" />
+        <Creation title="deep earth" creationImg={deepEarth} alt="deep-earth" />
       </div>
-      <div className="">
+      <div className="mx-auto mt-8 w-32 text-center outline">
         <p>SEE ALL</p>
       </div>
     </div>
