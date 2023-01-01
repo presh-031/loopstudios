@@ -6,7 +6,9 @@ import hamburger from "../assets/images/icon-hamburger.svg";
 import heroImg from "../assets/images/mobile/image-hero.jpg";
 
 const Hero = ({ setIsOpen }) => {
-  const handleMenuClick = () => {};
+  const handleMenuClick = () => {
+    setIsOpen((prevIsIOpen) => !prevIsIOpen);
+  };
   return (
     <div className="h-[100vh] bg-hero-img-mobile bg-cover bg-no-repeat px-6">
       <header className=" flex items-center justify-between  py-6">
