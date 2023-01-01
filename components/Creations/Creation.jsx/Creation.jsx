@@ -1,13 +1,11 @@
 import Image from "next/image";
 import React from "react";
 
-// import grid from "../../../assets/images/mobile/image-grid.jpg";
 const Creation = ({ title, creationImg, alt }) => {
-  // console.log(creationImg);
   return (
-    <div className={`h-32 w-full border border-red-800 bg-cover bg-no-repeat`}>
-      <p>{title}</p>
-      <Image src={creationImg} alt={alt} width={32} height={32} />
+    <div className={`relative h-32 w-full border-red-800 bg-cover bg-no-repeat`}>
+      <Image src={creationImg} alt={alt} width={330} height={120} className="object-cover" />
+      <p className="absolute bottom-4 left-4 w-32  font-josefin-sans text-2xl uppercase text-white">{title}</p>
     </div>
   );
 };
