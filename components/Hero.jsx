@@ -5,7 +5,8 @@ import hamburger from "../assets/images/icon-hamburger.svg";
 
 import heroImg from "../assets/images/mobile/image-hero.jpg";
 
-const Hero = () => {
+const Hero = ({ setIsOpen }) => {
+  const handleMenuClick = () => {};
   return (
     <div className="h-[100vh] bg-hero-img-mobile bg-cover bg-no-repeat px-6">
       <header className=" flex items-center justify-between  py-6">
@@ -21,7 +22,7 @@ const Hero = () => {
             <li>Support</li>
           </ul>
         </nav>
-        <div>
+        <div className="p-4" onClick={handleMenuClick}>
           <Image src={hamburger} alt="menu-icon" />
         </div>
       </header>
