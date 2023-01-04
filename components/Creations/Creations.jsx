@@ -1,5 +1,5 @@
 import React from "react";
-import Creation from "./Creation.jsx/Creation";
+import Creation from "./Creation/Creation";
 
 import deepEarth from "../../assets/images/mobile/image-deep-earth.jpg";
 import nightArcade from "../../assets/images/mobile/image-night-arcade.jpg";

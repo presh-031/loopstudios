@@ -10,13 +10,13 @@ const Hero = ({ setIsOpen }) => {
     setIsOpen((prevIsIOpen) => !prevIsIOpen);
   };
   return (
-    <div className="h-[100vh] bg-hero-img-mobile bg-cover bg-no-repeat px-6">
-      <header className=" flex items-center justify-between  py-6">
+    <div className="h-[100vh] bg-hero-img-mobile bg-cover bg-no-repeat px-6 lg:h-fit  lg:bg-hero-img-desktop  lg:px-32 lg:pb-[8rem]">
+      <header className=" flex items-center justify-between py-6 text-[#fff]  lg:py-16">
         <div className="">
-          <Image src={logo} alt="loopstudios" width={120} height={20} />
+          <Image src={logo} alt="loopstudios" className="h-[20px] w-[120px] object-contain lg:h-[40px] lg:w-[200px]" />
         </div>
         <nav>
-          <ul className="hidden">
+          <ul className="hidden lg:flex lg:gap-8 lg:text-xl">
             <li>About</li>
             <li>Careers</li>
             <li>Events</li>
@@ -24,11 +24,11 @@ const Hero = ({ setIsOpen }) => {
             <li>Support</li>
           </ul>
         </nav>
-        <div className="p-4" onClick={handleMenuClick}>
+        <div className="p-4 lg:hidden" onClick={handleMenuClick}>
           <Image src={hamburger} alt="menu-icon" />
         </div>
       </header>
-      <div className="mt-[20vh] p-4 font-josefin-sans  text-4xl  font-light text-gray-200 outline outline-2 outline-gray-200 ">
+      <div className="mt-[20vh]  p-4 font-josefin-sans text-4xl  font-light text-gray-200 outline outline-2  outline-gray-200  lg:mt-[2rem] lg:w-fit lg:p-6 lg:pr-32 lg:text-6xl  ">
         <p>IMMERSIVE </p>
         <p> EXPERIENCES </p>
         <p> THAT </p>

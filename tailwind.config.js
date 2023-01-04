@@ -7,6 +7,10 @@ module.exports = {
         // mobile images
         "hero-img-mobile": "url('../assets/images/mobile/image-hero.jpg')",
         "info-img-mobile": "url('../assets/images/mobile/image-interactive.jpg')",
+
+        // desktop images
+        "hero-img-desktop": "url('../assets/images/desktop/image-hero.jpg')",
+        "info-img-desktop": "url('../assets/images/desktop/image-interactive.jpg')",
       },
     },
     fontFamily: {
