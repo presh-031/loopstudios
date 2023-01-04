@@ -10,15 +10,17 @@ import pocketBorealis from "../../assets/images/mobile/image-pocket-borealis.jpg
 import curiosity from "../../assets/images/mobile/image-curiosity.jpg";
 import fisheye from "../../assets/images/mobile/image-fisheye.jpg";
 const Creations = () => (
-  <div className=" mb-[8rem] px-6">
+  <div className=" mb-[8rem] px-6 lg:px-32">
     <div>
-      <p className="mb-12 text-center font-josefin-sans text-3xl uppercase">Our creations</p>
-      <div className="hidden">
-        <p>SEE ALL</p>
+      <div className="outline lg:flex lg:items-center lg:justify-between">
+        <p className="mb-12 text-center font-josefin-sans text-3xl uppercase lg:mb-0 lg:text-5xl">Our creations</p>
+        <div className="hidden lg:block lg:self-center">
+          <p className="mx-auto mt-8 w-28 py-2 text-center font-alata text-sm tracking-[0.2em] outline">SEE ALL</p>
+        </div>
       </div>
 
       {/* The grid container is below */}
-      <div className="grid grid-cols-1 gap-6">
+      <div className="grid grid-cols-1 gap-6 lg:mt-[8rem] lg:grid-cols-4">
         <Creation title="deep earth" creationImg={deepEarth} alt="deep-earth" />
         <Creation title="night arcade" creationImg={nightArcade} alt="night-arcade" />
         <Creation title="soccer team vr" creationImg={soccerTeam} alt="soccer-team-vr" />
