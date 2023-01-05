@@ -17,11 +17,11 @@ const Hero = ({ setIsOpen }) => {
         </div>
         <nav>
           <ul className="hidden lg:flex lg:gap-8 lg:text-xl">
-            <li>About</li>
-            <li>Careers</li>
-            <li>Events</li>
-            <li>Products</li>
-            <li>Support</li>
+            <li className="cursor-pointer">About</li>
+            <li className="cursor-pointer">Careers</li>
+            <li className="cursor-pointer">Events</li>
+            <li className="cursor-pointer">Products</li>
+            <li className="cursor-pointer">Support</li>
           </ul>
         </nav>
         <div className="p-4 lg:hidden" onClick={handleMenuClick}>
@@ -31,8 +31,9 @@ const Hero = ({ setIsOpen }) => {
       <div className="mt-[20vh]  p-4 font-josefin-sans text-4xl  font-light text-gray-200 outline outline-2  outline-gray-200  lg:mt-[2rem] lg:w-fit lg:p-6 lg:pr-32 lg:text-6xl  ">
         <p>IMMERSIVE </p>
         <p> EXPERIENCES </p>
-        <p> THAT </p>
-        <p> DELIVER</p>
+        <p className="lg:hidden"> THAT </p>
+        <p className="lg:hidden"> DELIVER</p>
+        <p className="hidden lg:block ">THAT DELIVER</p>
       </div>
     </div>
   );

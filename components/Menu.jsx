@@ -21,11 +21,11 @@ const Menu = ({ setIsOpen }) => {
       </header>
       <nav>
         <ul className="mt-[10vh] flex flex-col gap-4 font-josefin-sans text-2xl uppercase">
-          <li>About</li>
-          <li>Careers</li>
-          <li>Events</li>
-          <li>Products</li>
-          <li>Support</li>
+          <li className="cursor-pointer">About</li>
+          <li className="cursor-pointer">Careers</li>
+          <li className="cursor-pointer">Events</li>
+          <li className="cursor-pointer">Products</li>
+          <li className="cursor-pointer">Support</li>
         </ul>
       </nav>
     </div>
