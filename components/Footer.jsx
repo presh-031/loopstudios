@@ -26,13 +26,37 @@ const Footer = () => {
       </div>
       <div className="flex h-[100%] flex-col justify-between ">
         <div className="mt-12 flex justify-center gap-4  md:m-0 md:mb-2 md:justify-end">
-          <Image src={facebook} alt="facebook" height={20} width={20} className={`${css.navItem} cursor-pointer`} />
+          <Image
+            src={facebook}
+            alt="facebook"
+            height={20}
+            width={20}
+            className={`${css.navItem} cursor-pointer object-cover`}
+          />
 
-          <Image src={twitter} alt="twitter" height={20} width={20} className={`${css.navItem} cursor-pointer`} />
+          <Image
+            src={twitter}
+            alt="twitter"
+            height={20}
+            width={20}
+            className={`${css.navItem} cursor-pointer object-cover`}
+          />
 
-          <Image src={pinterest} alt="pinterest" height={20} width={20} className={`${css.navItem} cursor-pointer`} />
+          <Image
+            src={pinterest}
+            alt="pinterest"
+            height={20}
+            width={20}
+            className={`${css.navItem} cursor-pointer object-cover`}
+          />
 
-          <Image src={instagram} alt="instagram" height={20} width={20} className={`${css.navItem} cursor-pointer`} />
+          <Image
+            src={instagram}
+            alt="instagram"
+            height={20}
+            width={20}
+            className={`${css.navItem} cursor-pointer object-cover`}
+          />
         </div>
         <p className="mt-4 text-center text-sm md:m-0 lg:text-right lg:text-xl">
           &#169; 2021 Loopstudios. All rights reserved.
