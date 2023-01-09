@@ -6,7 +6,7 @@ const HeadComponent = ({ page }) => {
     <Head>
       <title>Loopstudios || {page}</title>
       <meta name="description" content="Loopstudios landing page" />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="./logo.svg" />
     </Head>
   );
 };
