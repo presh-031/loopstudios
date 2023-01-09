@@ -1,8 +1,3 @@
-import Image from "next/image";
-import React from "react";
-
-import interactive from "../assets/images/mobile/image-interactive.jpg";
-
 const Info = () => {
   return (
     <div className="px-6 py-20 text-center font-josefin-sans lg:flex lg:items-end lg:justify-between  lg:gap-16 lg:px-16 lg:py-32 xl:px-32">
