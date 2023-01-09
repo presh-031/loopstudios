@@ -20,19 +20,21 @@ import curiosityDesktop from "../../assets/images/desktop/image-curiosity.jpg";
 import fisheyeDesktop from "../../assets/images/desktop/image-fisheye.jpg";
 
 const Creations = () => (
-  <div className=" mb-[8rem] px-6 lg:px-32">
+  <div className=" mb-[8rem] px-6 lg:px-16 xl:px-32">
     <div>
       <div className="lg:flex lg:items-center lg:justify-between">
-        <p className="mb-12 text-center font-josefin-sans text-3xl uppercase lg:m-0 lg:text-5xl">Our creations</p>
+        <p className="mb-12 text-center font-josefin-sans text-3xl uppercase sm:text-4xl lg:m-0 lg:text-5xl">
+          Our creations
+        </p>
         <div className="hidden cursor-pointer px-2 lg:block lg:self-center">
-          <p className="mx-auto mt-8 w-28 py-2 text-center font-alata text-sm tracking-[0.2em] outline lg:m-0">
+          <p className="mx-auto mt-8 w-28 py-2 text-center  font-alata text-sm tracking-[0.2em] outline hover:bg-black hover:text-[#fff] lg:m-0">
             SEE ALL
           </p>
         </div>
       </div>
 
       {/* The grid container is below */}
-      <div className="mx-auto grid   grid-cols-1 gap-6 outline  sm:grid-cols-2 md:grid-cols-3 lg:mt-[4rem] lg:gap-12 xl:grid-cols-4">
+      <div className="mx-auto grid grid-cols-1 gap-8  sm:grid-cols-2 md:grid-cols-3  md:gap-4 lg:mt-[4rem] lg:gap-8 xl:grid-cols-4 xl:gap-6">
         <Creation
           title="deep earth"
           creationImgMobile={deepEarth}
@@ -77,9 +79,9 @@ const Creations = () => (
           alt="make-it-fisheye"
         />
       </div>
-      <div className="mx-auto mt-8 w-28 cursor-pointer py-2 text-center font-alata text-xs tracking-[0.2em] outline lg:hidden">
-        <p>SEE ALL</p>
-      </div>
+      <p className=" mx-auto mt-8 w-28 cursor-pointer py-2 text-center  font-alata text-sm tracking-[0.2em]  outline transition-all ease-linear  hover:bg-black hover:text-[#fff] lg:m-0 lg:hidden">
+        SEE ALL
+      </p>
     </div>
   </div>
 );
