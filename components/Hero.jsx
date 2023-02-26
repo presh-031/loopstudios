@@ -12,7 +12,7 @@ const Hero = ({ setIsOpen }) => {
   };
   return (
     <div className="h-[100vh] bg-hero-img-mobile bg-cover bg-no-repeat px-6 sm:bg-hero-img-desktop  lg:h-fit  lg:px-16 lg:pb-[8rem] xl:px-32">
-      <header className=" flex items-center justify-between py-6 text-[#fff]  lg:py-16">
+      <header className=" flex items-center font-alata justify-between py-6 text-[#fff]  lg:py-16">
         <div className="">
           <Image src={logo} alt="loopstudios" className="h-[20px] w-[120px] object-contain lg:h-[40px] lg:w-[200px]" />
         </div>
